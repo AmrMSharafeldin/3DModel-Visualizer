@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WebGL Assignment2 - Interactive 3D Model Visualizer </title>
+	</head>
+	<body onload="InitDemo();">
+		<canvas id="game-surface" width="800" height="600">
+			Your browser does not support HTML5
+		</canvas>
+		<br />
+
+		<i>Please Press S and P to start/stop the light rotation. To get the best experience with the 3D model transformation, please keep the within the canvas , and right-click to stop the rotation.</i>
+		<p><b>Press M to say Mooooooo!!!!</b></p>
+		<script src="Common/MV.js"></script>
+		<script src="3DCowVis.js" type="module"></script>
+		<script>
+			document.addEventListener('keydown', function (event) {
+				if (event.key === 'M' || event.key === 'm') {
+					const mooSound = new Audio('./Cow-moo-Sound.mp3');
+					mooSound.play();
+
+					mooSound.onended = function () {
+						mooSound.remove();
+					};
+				}
+			});
+		</script>
+	</body>
+</html>
