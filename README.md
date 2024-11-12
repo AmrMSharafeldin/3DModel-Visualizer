@@ -1,12 +1,17 @@
-# 3DCow_Visualizer
+# 3D Model Visualizer using WebGL
 
-Phase1 : The cow rotates around the x and y axis in response to the mouse drag and around z axis in resposnse to left and right 
+### Phase 1: Implemented Interactive Rotation for the Cow Model
+   - The model rotates around the X and Y axes in response to mouse drag.
+   - Rotation around the Z axis is controlled by the left and right arrow keys.
 
-Phase2 : The cow translates in the same manner 
+### Phase 2: Enabled Translation Controls for the Cow Model
+   - The model translates in response to mouse drag (similar to the rotation controls).
 
-Phase 3 : Generated the normal data 
+### Phase 3: Generated and Assigned Per-Vertex Normal Data
+   - Normal vectors were calculated for each vertex to enable realistic lighting effects.
 
-Phase 4 : implemented the phnog lighting , reference https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-directional.html
+### Phase 4: Implemented Phong Lighting
+   - Based on [WebGL Fundamentals - 3D Lighting Directional](https://webglfundamentals.org/webgl/lessons/webgl-3d-lighting-directional.html), directional lighting was applied for realistic shading and highlights.
 
-
-Phas5: Adjsuted the colors 
+### Phase 5: Refined Color Settings
+   - Adjusted color properties of the model to achieve a more natural appearance.
