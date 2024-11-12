@@ -1,5 +1,8 @@
 # 3D Model Visualizer using WebGL
 
+## **Demo**
+![Diagram](Media/resutlts.jpg)
+
 ### Phase 1: Implemented Interactive Rotation for the Cow Model
    - The model rotates around the X and Y axes in response to mouse drag.
    - Rotation around the Z axis is controlled by the left and right arrow keys.
